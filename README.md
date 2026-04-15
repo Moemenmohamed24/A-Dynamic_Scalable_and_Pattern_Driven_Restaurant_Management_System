@@ -1,0 +1,1 @@
+# Aapplied_DesignPattern_SolidPrinciple_objectOriantedPrograming
