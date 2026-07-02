@@ -12,7 +12,8 @@
 
 
 ## Customer:
-<img width="1903" height="603" alt="image" src="https://github.com/user-attachments/assets/6ba0a0bd-8d31-4ece-b166-76d0f3f1cb80" />
+<img width="1206" height="492" alt="image" src="https://github.com/user-attachments/assets/e194e5bc-38e5-4b80-bbbb-7b8012c05021" />
+
 
 ## Table:
 
