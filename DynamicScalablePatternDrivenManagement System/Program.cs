@@ -7,6 +7,7 @@ public class PersonalData
 {
     private string name = "";
     private string type = "";
+    private short numberofseats = 4;
     public string   Name { get
         {
             return this.name;
@@ -30,6 +31,20 @@ public class PersonalData
             type = value;
         }
     }
+    public short Numberofseats
+    {
+        get
+        {
+            return numberofseats;
+        }
+
+        set
+        {
+            numberofseats = value;
+        }
+
+    }
+
 }
 
 public interface Booking
@@ -51,11 +66,18 @@ public abstract class FullBooking
     {
         Booking booking  = creatBooking(type);
 
-        booking.AssigenType();
+        if(booking!=null)
+        {
+          booking.AssigenType();
+
+        }
+
+        
 
     }
 
     //Factory Method 
+    //return type of types Booking like Individual , Family and  Couple
     protected abstract Booking creatBooking(string type);
 }
 
@@ -69,8 +91,31 @@ public class Individual : PersonalData ,  Booking
     public void AssigenType()
     {
         Type = "individual";
-        Console.WriteLine($"Type is : {Type}");
+        Numberofseats = 1;
+        Console.WriteLine($"Type is : {Type}   Numberofseats : {Numberofseats}"  );
     }     
+}
+
+
+public class Family : PersonalData  , Booking
+{
+    public void AssigenType()
+    {
+        Type = "Family";        
+        Console.WriteLine($"Type is : {Type}   Numberofseats : {Numberofseats}");
+    }
+
+}
+
+
+public class Couple : PersonalData , Booking
+{
+    public void AssigenType()
+    {
+        Type = "Couple";
+        Numberofseats = 2;
+        Console.WriteLine($"Type is : {Type}   Numberofseats : {Numberofseats}");
+    }
 }
 
 // ==========================================
@@ -84,19 +129,47 @@ public class IndividualBooking : FullBooking
         if(type == "individual")
         {
             return new Individual();
-        }
-        //we must treat that , because null , is dangerous   
-        return null;
+        }       
+        throw new ArgumentException("Invalid booking type");
     }      
 }
+public class FamilyBooking : FullBooking
+{
+    protected override Booking creatBooking(string type)
+    {
+        if (type == "Family")
+        {
+            return new Family();
+        }
+        throw new ArgumentException("Invalid booking type");
+    }
+}
+public class CoupleBooking : FullBooking
+{
+    protected override Booking creatBooking(string type)
+    {
+        if(type == "Couple")
+        {
+            return new Couple();
+        }
+        throw new ArgumentException();
+    }
+}
+
 
 class Program
 {
     static void Main(string[] args)
     {
-        FullBooking fullBooking = new IndividualBooking();
+        //FullBooking fullBooking = new IndividualBooking();
 
-        fullBooking.BookingOrder("individual");
+        //FullBooking fullBooking = new FamilyBooking();
+
+        FullBooking fullBooking = new CoupleBooking();
+
+        //fullBooking.BookingOrder("individual");              
+        //fullBooking.BookingOrder("Family");
+        fullBooking.BookingOrder("Couple");
 
     }
 }
