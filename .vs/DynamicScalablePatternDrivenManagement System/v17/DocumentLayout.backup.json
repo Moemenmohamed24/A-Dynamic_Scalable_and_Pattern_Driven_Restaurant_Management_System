@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\familybooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\familybooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\couplebooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\couplebooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\groupbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\groupbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupBooking.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\GroupBooking.cs",
+              "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\GroupBooking.cs",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\GroupBooking.cs*",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\GroupBooking.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:09:07.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoupleBooking.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\CoupleBooking.cs",
+              "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\CoupleBooking.cs",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\CoupleBooking.cs*",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\CoupleBooking.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:08:44.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FamilyBooking.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\FamilyBooking.cs",
+              "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\FamilyBooking.cs",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\FamilyBooking.cs*",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\FamilyBooking.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:08:20.179Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Program.cs",
               "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Program.cs",
-              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Program.cs*",
-              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Program.cs*",
-              "ViewState": "AgIAAG8AAAAAAAAAAAArwIkAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Program.cs",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T23:21:34.455Z",
               "EditorCaption": ""
