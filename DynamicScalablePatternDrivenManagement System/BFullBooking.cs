@@ -6,7 +6,7 @@
 public abstract class BFullBooking 
 {
    
-    public void BookingOrder(string type)
+    public Booking BookingOrder(string type)
     {
         Booking booking  = creatBooking(type);
 
@@ -15,8 +15,8 @@ public abstract class BFullBooking
           booking.AssigenType();
 
         }
-        
 
+        return booking;
     }
 
     //Factory Method 
