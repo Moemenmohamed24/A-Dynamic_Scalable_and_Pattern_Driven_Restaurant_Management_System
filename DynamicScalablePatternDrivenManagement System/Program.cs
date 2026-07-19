@@ -4,33 +4,122 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
-// Interface  of all class that make adding 
-public interface Tableseats
+// abstract class  of all class that make adding 
+public abstract class Tableseats
 {
-    public string Discribtion();
-    public short getPrice();
+    public abstract string Discribtion();
+    public abstract int getPrice();
 }
 
 
-public class SimpleTable : Tableseats
+
+public class TSimpleTable : Tableseats
 { 
     public override string Discribtion()
     {
         return "SimpleTable";
     }
 
-    public override short getPrice()
+    public override int getPrice()
     {
         return 0;
     }
 
 }
 
+// Remains abstract because it does not implement the inherited abstract methods from Tableseats.
+// This tells the compiler that the class is incomplete and cannot be instantiated.
+// Concrete decorators will provide the actual implementations.
+//TableDecorator consider as proxy between Tableseats and additional and passing  the objects to make Chaine
+public abstract class TableDecorator : Tableseats
+{
+    protected Tableseats tableseats;
+
+    public TableDecorator(Tableseats tableseats)
+    {
+        this.tableseats = tableseats;
+    }
+}
 
 
+public class TCenterpieces : TableDecorator
+{
+    //base for  push tableseats to  TableDecorator  constructor to make Chaine of decorator objects 
+    public TCenterpieces(Tableseats tableseats) : base(tableseats)
+    {
+
+    }
+
+    public override string Discribtion()
+    {
+        return tableseats.Discribtion() + " table with Centerpieces ,";
+    }
+
+    public override int getPrice()
+    {
+        return tableseats.getPrice() + 10;
+    }
+
+}
 
 
+public class TLightCandle : TableDecorator
+{
+    public TLightCandle(Tableseats tableseats) : base(tableseats)
+    {
 
+    }
+
+    public override string Discribtion()
+    {
+        return tableseats.Discribtion() + " LightCandle ,";
+    }
+
+    public override int getPrice()
+    {
+        return tableseats.getPrice() + 5;
+    }
+}
+
+public class Tablecloth : TableDecorator
+{
+
+    public Tablecloth(Tableseats tableseats) : base(tableseats)
+    {
+
+    }
+
+
+    public override string Discribtion()
+    {
+        return tableseats.Discribtion() + " tablecloth ,";
+    }
+
+    public override int getPrice()
+    {
+        return tableseats.getPrice() + 7;
+    }
+
+
+}
+
+public class TColorsTheme : TableDecorator
+{
+    public TColorsTheme(Tableseats tableseats) : base(tableseats)
+    {
+
+    }
+
+    public override string Discribtion()
+    {
+        return tableseats.Discribtion() + " ColorsTheme .";
+    }
+
+    public override int getPrice()
+    {
+        return tableseats.getPrice() + 10;
+    }
+}
 
 class Program
 {
@@ -38,10 +127,10 @@ class Program
     {
         
        // FullBooking fullBooking = new CoupleBooking();
-       BFullBooking fullBooking = new BGroupBooking();
+       //BFullBooking fullBooking = new BGroupBooking();
 
 
-        Booking booking = fullBooking.BookingOrder("Group");
+       // Booking booking = fullBooking.BookingOrder("Group");
 
         /*
         In other words, BGroup is also BPersonalData.
@@ -55,16 +144,28 @@ class Program
         Does the actual object(BGroup) inherit from BPersonalData ?
         */
 
-        if (booking is BPersonalData bPersonalData)
-        {
-            //  bPersonalData.AddExtrSeats(2);
-            bPersonalData.UpgradeSeats();           
+        //if (booking is BPersonalData bPersonalData)
+        //{
+        //    //  bPersonalData.AddExtrSeats(2);
+        //    bPersonalData.UpgradeSeats();           
 
-        }       
-        //casting BPersonalData personalData = (BPersonalData)myBooking; 
+        //}
+        ////casting BPersonalData personalData = (BPersonalData)myBooking; 
 
+
+
+        Tableseats oder1 = new SimpleTable();
+        oder1 = new Centerpieces(oder1);
+        oder1 = new LightCandle(oder1);
+        oder1 = new Tablecloth(oder1);
+        oder1 = new ColorsTheme(oder1);
+
+
+
+        Console.WriteLine($" all sheap of tabel : {oder1.Discribtion()} \n  cost of the tabel = {oder1.getPrice()} ");
 
 
 
     }
 }
+
