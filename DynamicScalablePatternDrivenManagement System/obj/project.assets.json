@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Bookings.csproj",
-      "projectName": "Bookings",
-      "projectPath": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Bookings.csproj",
+      "projectUniqueName": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj",
+      "projectName": "DynamicScalablePatternDrivenManagement System",
+      "projectPath": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj",
       "packagesPath": "C:\\Users\\Mohamed Hamous\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\obj\\",
       "projectStyle": "PackageReference",
