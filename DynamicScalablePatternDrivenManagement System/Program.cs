@@ -154,11 +154,11 @@ class Program
 
 
 
-        Tableseats oder1 = new SimpleTable();
-        oder1 = new Centerpieces(oder1);
-        oder1 = new LightCandle(oder1);
+        Tableseats oder1 = new TSimpleTable();
+        oder1 = new TCenterpieces(oder1);
+        oder1 = new TLightCandle(oder1);
         oder1 = new Tablecloth(oder1);
-        oder1 = new ColorsTheme(oder1);
+        oder1 = new TColorsTheme(oder1);
 
 
 
