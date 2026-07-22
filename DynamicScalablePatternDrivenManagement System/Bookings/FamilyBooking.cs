@@ -4,18 +4,14 @@
 // ========================================== 
 
 
-
-
-
-public class BGroupBooking : BFullBooking
+public class FamilyBooking : FullBooking
 {
     protected override Booking creatBooking(string type)
     {
-        if (type == "Group")
+        if (type == "Family")
         {
-            return new BGroup();
+            return new Family();
         }
         throw new ArgumentException("Invalid booking type");
     }
-
 }

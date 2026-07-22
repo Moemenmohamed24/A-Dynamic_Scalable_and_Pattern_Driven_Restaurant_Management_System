@@ -1,5 +1,5 @@
 ﻿public enum SeatsQuality { Standard , VIP, Premium }
-public class BPersonalData
+public class PersonalData
 {
     private string name = "";
     private string type = "";

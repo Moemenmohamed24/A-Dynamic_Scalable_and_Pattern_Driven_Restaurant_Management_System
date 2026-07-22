@@ -4,7 +4,7 @@
 
 
 
-public class BCouple : BPersonalData, Booking
+public class Couple : PersonalData, Booking
 {
     public void AssigenType()
     {

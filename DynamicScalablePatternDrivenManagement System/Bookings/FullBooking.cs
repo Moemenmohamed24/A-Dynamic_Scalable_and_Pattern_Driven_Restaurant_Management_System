@@ -3,7 +3,7 @@
 // Creator , that make final creation of product 
 // ==========================================
 
-public abstract class BFullBooking 
+public abstract class FullBooking 
 {
    
     public Booking BookingOrder(string type)

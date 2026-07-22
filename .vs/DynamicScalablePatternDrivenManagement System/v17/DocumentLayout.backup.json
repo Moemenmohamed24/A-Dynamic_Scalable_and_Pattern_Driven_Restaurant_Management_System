@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\bookings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\bookings\\fullbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\bookings\\fullbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\tableseats\\simpletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\tableseats\\simpletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mohamed Hamous\\AppData\\Local\\SourceServer\\41a13faf746b2b871b53374cb04a83f43497c4c8418b4012fdf1525ccc276205\\DynamicScalablePatternDrivenManagement System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -17,11 +25,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FullBooking.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Bookings\\FullBooking.cs",
+              "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Bookings\\FullBooking.cs",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Bookings\\FullBooking.cs",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Bookings\\FullBooking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T05:50:21.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleTable.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Tableseats\\SimpleTable.cs",
+              "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Tableseats\\SimpleTable.cs",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Tableseats\\SimpleTable.cs",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Tableseats\\SimpleTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T05:48:19.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\AppData\\Local\\SourceServer\\41a13faf746b2b871b53374cb04a83f43497c4c8418b4012fdf1525ccc276205\\DynamicScalablePatternDrivenManagement System\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\41a13faf746b2b871b53374cb04a83f43497c4c8418b4012fdf1525ccc276205\\DynamicScalablePatternDrivenManagement System\\Program.cs",
@@ -40,7 +74,7 @@
               "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Bookings\\Program.cs",
               "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Bookings\\Program.cs*",
               "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Bookings\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T23:21:34.455Z",
               "EditorCaption": ""

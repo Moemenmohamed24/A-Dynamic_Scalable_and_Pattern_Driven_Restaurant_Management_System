@@ -1,7 +1,7 @@
-﻿public class TCenterpieces : TableDecorator
+﻿public class Centerpieces : TableDecorator
 {
     //base for  push tableseats to  TableDecorator  constructor to make Chaine of decorator objects 
-    public TCenterpieces(Tableseats tableseats) : base(tableseats)
+    public Centerpieces(Tableseats tableseats) : base(tableseats)
     {
 
     }

@@ -7,13 +7,13 @@
 
 
 
-public class BCoupleBooking : BFullBooking
+public class CoupleBooking : FullBooking
 {
     protected override Booking creatBooking(string type)
     {
         if(type == "Couple")
         {
-            return new BCouple();
+            return new Couple();
         }
         throw new ArgumentException();
     }

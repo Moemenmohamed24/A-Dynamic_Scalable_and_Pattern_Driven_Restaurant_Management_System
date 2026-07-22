@@ -1,6 +1,6 @@
-﻿public class TColorsTheme : TableDecorator
+﻿public class ColorsTheme : TableDecorator
 {
-    public TColorsTheme(Tableseats tableseats) : base(tableseats)
+    public ColorsTheme(Tableseats tableseats) : base(tableseats)
     {
 
     }

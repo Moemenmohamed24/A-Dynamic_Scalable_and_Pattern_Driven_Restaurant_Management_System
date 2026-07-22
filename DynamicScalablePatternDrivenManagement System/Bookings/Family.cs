@@ -1,13 +1,15 @@
 ﻿// ========================================== 
 //  Concrete Products 
 // ==========================================
-public class BGroup : BPersonalData, Booking
-{
 
+
+
+public class Family : PersonalData, Booking
+{
     public void AssigenType()
     {
-        Type = "Group";
-        Numberofseats = 4;
+        Type = "Family";        
         Console.WriteLine($"Type is : {Type}   Numberofseats : {Numberofseats}");
     }
-} 
+
+}

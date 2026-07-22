@@ -1,4 +1,4 @@
-﻿public class TSimpleTable : Tableseats
+﻿public class SimpleTable : Tableseats
 { 
     public override string Discribtion()
     {
@@ -7,7 +7,7 @@
 
     public override int getPrice()
     {
-        return 0;
+        return 3;
     }
 
 }

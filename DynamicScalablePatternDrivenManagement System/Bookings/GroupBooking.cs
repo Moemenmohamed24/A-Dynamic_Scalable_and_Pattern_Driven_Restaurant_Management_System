@@ -3,14 +3,19 @@
 // Concrete Creators 
 // ========================================== 
 
-public class BIndividualBooking : BFullBooking
+
+
+
+
+public class GroupBooking : FullBooking
 {
     protected override Booking creatBooking(string type)
     {
-        if(type == "individual")
+        if (type == "Group")
         {
-            return new BIndividual();
-        }       
+            return new Group();
+        }
         throw new ArgumentException("Invalid booking type");
-    }      
+    }
+
 }

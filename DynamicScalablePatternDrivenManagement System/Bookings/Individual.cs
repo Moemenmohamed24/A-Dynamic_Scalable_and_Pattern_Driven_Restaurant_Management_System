@@ -3,7 +3,7 @@
 //  Concrete Products 
 // ==========================================
 
-public class BIndividual : BPersonalData,  Booking
+public class Individual : PersonalData,  Booking
 {
 
     public void AssigenType()

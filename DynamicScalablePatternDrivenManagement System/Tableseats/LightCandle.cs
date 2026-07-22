@@ -1,6 +1,6 @@
-﻿public class TLightCandle : TableDecorator
+﻿public class LightCandle : TableDecorator
 {
-    public TLightCandle(Tableseats tableseats) : base(tableseats)
+    public LightCandle(Tableseats tableseats) : base(tableseats)
     {
 
     }
